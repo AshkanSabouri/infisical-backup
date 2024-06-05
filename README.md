@@ -15,6 +15,7 @@
 2. Next, set execute permissions for the scripts:
 
    ```
+   cd infisical-backup
    sudo chmod +x backup.sh restore.sh
    ```
 
