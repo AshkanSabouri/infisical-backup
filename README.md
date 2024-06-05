@@ -2,7 +2,13 @@
 
 **Backup And Restore Solution With Bash Script**
 
-(Note: This script works with the Dockerized version and can be installed from [Infisical GitHub Repository](https://github.com/Infisical/infisical/tree/main).)
+Note: This script works with the Dockerized version and can be installed from [Infisical GitHub Repository](https://github.com/Infisical/infisical/tree/main) 
+
+with this command :
+
+```
+git clone https://github.com/Infisical/infisical && cd "$(basename $_ .git)" && cp .env.example .env && docker-compose -f docker-compose.yml up
+```
 
 **Backup Script**
 
